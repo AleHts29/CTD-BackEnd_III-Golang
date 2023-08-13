@@ -56,8 +56,8 @@ func search(m map[string]int) {
 }
 
 func main() {
-	//ListNames := []string{"Benjamin", "Nahuel", "Brenda", "Marcos", "Pedro", "Axel", "Alez", "Dolores", "Federico", "Hernán", "Leandro", "Eduardo", "Duvraschka"}
-	//listadoDeNombres(ListNames)
+	ListNames := []string{"Benjamin", "Nahuel", "Brenda", "Marcos", "Pedro", "Axel", "Alez", "Dolores", "Federico", "Hernán", "Leandro", "Eduardo", "Duvraschka"}
+	listadoDeNombres(ListNames)
 
 	employees := map[string]int{
 		"Benjamin": 20,
