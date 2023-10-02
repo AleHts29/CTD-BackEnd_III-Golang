@@ -24,6 +24,11 @@ type Alumno struct {
 	Fecha    string
 }
 
+// Metodo
+func (p *Alumno) Detalle() {
+	fmt.Printf("Nombre: %s\nApellido: %s\nDNI: %d\nFecha de ingreso: %s\n", p.Nombre, p.Apellido, p.DNI, p.Fecha)
+}
+
 func main() {
 	p := Alumno{
 		Nombre:   "Gabriel",
@@ -33,9 +38,4 @@ func main() {
 	}
 	p.Detalle()
 
-}
-
-// Metodo
-func (p *Alumno) Detalle() {
-	fmt.Printf("Nombre: %s\nApellido: %s\nDNI: %d\nFecha de ingreso: %s\n", p.Nombre, p.Apellido, p.DNI, p.Fecha)
 }

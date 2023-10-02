@@ -1,8 +1,4 @@
-// para iniciar a trabajar con modulos debemos ejecutar:
-// go mod init [repositorio]
-//go get -u github.com/gin-gonic/gin
-
-module github.com/AleHts29/CTD-BackEnd_III-Golang
+module metodos_http
 
 go 1.19
 

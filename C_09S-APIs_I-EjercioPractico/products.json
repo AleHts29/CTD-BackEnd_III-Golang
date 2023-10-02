@@ -1,0 +1,1 @@
+[{"Id":1,"Name":"Producto 1","Price":10.99,"Stock":100,"Code":"ABC123","Publish":true,"CreateDate":"2023-09-12T13:22:53.746408-03:00"},{"Id":2,"Name":"Producto 2","Price":15.49,"Stock":50,"Code":"DEF456","Publish":true,"CreateDate":"2023-09-12T13:22:53.746408-03:00"}]
